@@ -1,10 +1,11 @@
 <template>
   <div class="romans theme-back pad">
     <h1 class="marginb">Romans</h1>
-    <div class="theme-mid pad rounded shadow">
+
+    <div data-session="1" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(1)" @click="visibleSession = 1">
       <h2>Session 1: Romans 4-6</h2>
-      <p class="marginb hi-bottom">Overview &amp; Context</p>
-      <div>
+      <p>Overview &amp; Context</p>
+      <div class="detail margint hi-top">
         <div>
           <p><strong>Old Testament references</strong></p>
           <p class="marginb">Read the following passages, they will help provide important context to the things that Paul will discuss in Romans 4-6.</p>
@@ -21,6 +22,17 @@
         </div>
       </div>
     </div>
+
+    <div data-session="2" class="theme-mid pad rounded shadow" :class="sessionClasses(2)" @click="visibleSession = 2">
+      <h2>Session 2: Romans 4</h2>
+      <p>Observe</p>
+      <div class="detail margint hi-top">
+        <p>• What do we learn about Abraham?</p>
+        <p>• What do we learn about God?</p>
+        <p>• What are the repeated words? What is the definition of these words?</p>
+        <p>• How many times is the word 'but' used? Do you see any patterns in how it is used?</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -29,9 +41,13 @@ export default {
   name: 'romans',
   data () {
     return {
+      visibleSession: 0
     }
   },
   methods: {
+    sessionClasses (session) {
+      return this.visibleSession === session ? ['active'] : []
+    }
   }
 }
 </script>
@@ -40,6 +56,17 @@ export default {
 .romans {
   .callout.alt {
     font-weight: bold;
+  }
+  .detail {
+    padding-top: 10px;
+  }
+}
+.detail {
+  display: none;
+}
+.active {
+  .detail {
+    display: block;
   }
 }
 </style>
