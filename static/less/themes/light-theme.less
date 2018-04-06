@@ -1,11 +1,11 @@
 @color-text: #49494b;
-@color-gradient: linear-gradient(45deg, #110022, #991144);
+@color-gradient: linear-gradient(45deg, #77ccaa, #99eedd);
 @color-back: #efefe9;
 @color-back-raised: #fcfcfc;
 @color-back-raised2: #cac9ca;
 @color-under: #222133;
 @color-under-mid: #323143;
-@color-callout: #ee9911;
+@color-callout: #bb5511;
 @color-callout-light: #6490cf;
 @color-deemphasize: #999f99;
 @color-deemphasize-more: #ccc;
@@ -71,10 +71,8 @@
     }
   }
   .theme-back-text {
-    color: white;
-    text-shadow: 1px 0px 2px darken(@color-callout, 20%);
+    color: @color-callout;
     a {
-      color: white;
       font-weight: bold;
       text-decoration: underline;
     }
@@ -108,6 +106,7 @@
   .hi-bottom { border-bottom: solid 1px @color-back-raised2; }
   .callout-border { border: solid 1px @color-callout-light; }
   .callout-bottom { border-bottom: solid 1px @color-callout-light; }
+  .muted-more-bottom { border-bottom: solid 1px @color-deemphasize-more; }
 
   ::-webkit-scrollbar-thumb { background: @color-callout-light; }
 

@@ -1,9 +1,12 @@
 <template>
   <div class="romans theme-back pad">
-    <h1 class="marginb">Romans</h1>
+    <div class="flex-row">
+      <h1 class="flex-one marginb">Romans</h1>
+      <a @click="$router.push('/')">Home</a>
+    </div>
 
     <div data-session="1" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(1)" @click="visibleSession = 1">
-      <h2>Session 1: Romans 4-6</h2>
+      <h2>SESSION 1 <span class="muted">Romans 4-6</span></h2>
       <p>Overview &amp; Context</p>
       <div class="detail margint hi-top">
         <div>
@@ -23,14 +26,44 @@
       </div>
     </div>
 
-    <div data-session="2" class="theme-mid pad rounded shadow" :class="sessionClasses(2)" @click="visibleSession = 2">
-      <h2>Session 2: Romans 4</h2>
+    <div data-session="2" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(2)" @click="visibleSession = 2">
+      <h2>SESSION 2 <span class="muted">Romans 4</span></h2>
       <p>Observe</p>
       <div class="detail margint hi-top">
         <p>• What do we learn about Abraham?</p>
         <p>• What do we learn about God?</p>
         <p>• What are the repeated words? What is the definition of these words?</p>
         <p>• How many times is the word 'but' used? Do you see any patterns in how it is used?</p>
+      </div>
+    </div>
+
+    <div data-session="3" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(3)" @click="visibleSession = 3">
+      <h2>SESSION 3 <span class="muted">Romans 4</span></h2>
+      <p>Interpret &amp; Apply</p>
+      <div class="detail margint hi-top">
+        <p><strong>Interpret</strong></p>
+        <p>• What is true about the one who has faith?</p>
+        <p>• What is true about works, the Law and those who live by these?</p>
+        <p>• From verse 2, if Abraham were justified by works, why would he still not be able to boast before God?</p>
+        <p class="margint"><strong>Apply</strong></p>
+        <p>• SPACE: As you consider this passage, are there any:</p>
+        <div class="marginl">
+          <p><strong>S</strong>ins you need to confess?</p>
+          <p><strong>P</strong>romises you can claim?</p>
+          <p><strong>A</strong>ctions you can take?</p>
+          <p><strong>C</strong>ommands you need to obey?</p>
+          <p><strong>E</strong>xamples you can follow?</p>
+        </div>
+      </div>
+    </div>
+
+    <div data-session="4" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(4)" @click="visibleSession = 4">
+      <h2>SESSION 4 <span class="muted">Romans 5:1-11</span></h2>
+      <p>Observe, Interpret, Apply</p>
+      <div class="detail margint hi-top">
+        <p>Observe: What are the action words in this passage? Who/what is the actor? What is the result?</p>
+        <p>Interpret: What are the most important words? What do they mean? How are they used?</p>
+        <p>Apply: What from this passage can you be thankful for? How can this thankfulness change your experience of today?</p>
       </div>
     </div>
   </div>
