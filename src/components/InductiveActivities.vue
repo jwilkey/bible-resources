@@ -133,12 +133,25 @@
       </div>
 
       <div class="activity theme-mid small-pad muted-more-bottom">
-        <div class="activity-title">Outward-Inward</div> This activity is meant to help you think honestly about differences in who you are to others, in your habits, in your values and in your inner self.
-        Observe the different character qualities in the text. For each question below, you are being measured in 2 ways: (1) to what degree you are an example of each character quality, and (2) to what degree you are relying on yourself versus relying on Spirit for this character quality.
-        If your family were to compare you to these qualities, how would they measure you? Your co-workers, neighbors, etc.?
-        How would you measure your actual habits and behaviors compared to these qualities?
-        How would you measure your values and beliefs compared to these qualities?
-        How would you measure your actual thoughts and desires compared to these qualities?
+        <div class="activity-title">Outward-Inward</div>
+        <div>
+          This activity is meant to help you think honestly about differences in who you are to others, in your habits, in your values and in your inner self.
+          <br />
+          Observe the different character qualities in the text. For each question below, you are being measured in 2 ways:
+          <br />
+          (1) to what degree you are an example of each character quality, and
+          <br />
+          (2) to what degree you are relying on yourself versus relying on Spirit for this character quality.
+          <br />
+          <br />
+          If your family were to compare you to these qualities, how would they measure you? Your co-workers, neighbors, etc.?
+          <br />
+          • How would you measure your actual habits and behaviors compared to these qualities?
+          <br />
+          • How would you measure your values and beliefs compared to these qualities?
+          <br />
+          • How would you measure your actual thoughts and desires compared to these qualities?
+        </div>
       </div>
 
       <div class="activity theme-mid small-pad muted-more-bottom">

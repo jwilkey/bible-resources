@@ -5,10 +5,10 @@
       <a @click="$router.push('/')">Home</a>
     </div>
 
-    <div data-session="1" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(1)" @click="visibleSession = 1">
+    <div data-session="1" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(1)" @click="setSession(1)">
       <h2>SESSION 1 <span class="muted">Romans 4-6</span></h2>
       <p>Overview &amp; Context</p>
-      <div class="detail margint hi-top">
+      <div class="detail hi-top">
         <div>
           <p><strong>Old Testament references</strong></p>
           <p class="marginb">Read the following passages, they will help provide important context to the things that Paul will discuss in Romans 4-6.</p>
@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <div data-session="2" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(2)" @click="visibleSession = 2">
+    <div data-session="2" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(2)" @click="setSession(2)">
       <h2>SESSION 2 <span class="muted">Romans 4</span></h2>
       <p>Observe</p>
       <div class="detail margint hi-top">
@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <div data-session="3" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(3)" @click="visibleSession = 3">
+    <div data-session="3" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(3)" @click="setSession(3)">
       <h2>SESSION 3 <span class="muted">Romans 4</span></h2>
       <p>Interpret &amp; Apply</p>
       <div class="detail margint hi-top">
@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <div data-session="4" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(4)" @click="visibleSession = 4">
+    <div data-session="4" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(4)" @click="setSession(4)">
       <h2>SESSION 4 <span class="muted">Romans 5:1-11</span></h2>
       <p>Observe, Interpret, Apply</p>
       <div class="detail margint hi-top">
@@ -80,6 +80,9 @@ export default {
   methods: {
     sessionClasses (session) {
       return this.visibleSession === session ? ['active'] : []
+    },
+    setSession (session) {
+      this.visibleSession = session
     }
   }
 }
@@ -90,16 +93,19 @@ export default {
   .callout.alt {
     font-weight: bold;
   }
-  .detail {
-    padding-top: 10px;
-  }
 }
 .detail {
-  display: none;
+  max-height: 0px;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, opacity 0.5s;
 }
 .active {
   .detail {
-    display: block;
+    padding-top: 10px;
+    margin-top: 10px;
+    max-height: 3000px;
+    opacity: 1;
   }
 }
 </style>
