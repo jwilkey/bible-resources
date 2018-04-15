@@ -1,6 +1,10 @@
 <template>
   <div class="inductive-activities theme-back">
-    <h1>Inductive Activities</h1>
+    <div class="flex-row">
+      <h1 class="flex-one">Inductive Activities</h1>
+      <a @click="$router.push('/')">Home</a>
+    </div>
+
     <h2 class="callout alt">OBSERVE</h2>
     <div class="small-pad theme-mid rounded shadow">
       <div class="activity theme-mid small-pad muted-more-bottom">
