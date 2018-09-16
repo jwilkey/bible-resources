@@ -34,7 +34,7 @@
 
 <script>
 export default {
-  name: 'Titus1_10-14',
+  name: 'Titus11014',
   data () {
     return {
       shouldShowDetails: false

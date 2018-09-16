@@ -1,11 +1,14 @@
 <template>
   <div class="inductive-activities theme-back">
-    <div class="flex-row">
-      <h1 class="flex-one">Inductive Activities</h1>
-      <a @click="$router.push('/')">Home</a>
+    <div class="theme-mid flex-row align-center shadow content">
+      <a
+        class="alt rounded blue small-pad marginl"
+        @click="$router.push('/')"><i class="fas fa-home"></i></a>
+      <h1 class="font-large pad">Inductive Activities</h1>
     </div>
 
-    <h2 class="callout alt">OBSERVE</h2>
+    <div class="content">
+    <h2 class="callout alt small-pad">OBSERVE</h2>
     <div class="small-pad theme-mid rounded shadow">
       <div class="activity theme-mid small-pad muted-more-bottom">
         <div class="activity-title">People, Places, Things</div> These are the building blocks of the text, can you find them all?
@@ -43,7 +46,7 @@
       </div>
     </div>
 
-    <h2 class="callout alt">INTERPRET</h2>
+    <h2 class="callout alt small-pad">INTERPRET</h2>
     <div class="small-pad theme-mid rounded shadow">
       <div class="activity theme-mid small-pad muted-more-bottom">
         <div class="activity-title">Topics</div> What are the topics and ideas discussed in this passage?
@@ -91,7 +94,7 @@
       </div>
     </div>
 
-    <h2 class="callout alt">APPLY</h2>
+    <h2 class="callout alt small-pad">APPLY</h2>
     <div class="small-pad theme-mid rounded shadow">
       <div class="activity theme-mid small-pad muted-more-bottom">
         <div class="activity-title">Church</div> What implications does this passage have for you as a church member, for your fellow church family, for the church in your city/region?
@@ -136,20 +139,20 @@
         <div class="activity-title">Outward-Inward</div>
         <div>
           This activity is meant to help you think honestly about differences in who you are to others, in your habits, in your values and in your inner self.
-          <br />
+          <br >
           Observe the different character qualities in the text. For each question below, you are being measured in 2 ways:
-          <br />
+          <br >
           (1) to what degree you are an example of each character quality, and
-          <br />
+          <br >
           (2) to what degree you are relying on yourself versus relying on Spirit for this character quality.
-          <br />
-          <br />
+          <br >
+          <br >
           If your family were to compare you to these qualities, how would they measure you? Your co-workers, neighbors, etc.?
-          <br />
+          <br >
           • How would you measure your actual habits and behaviors compared to these qualities?
-          <br />
+          <br >
           • How would you measure your values and beliefs compared to these qualities?
-          <br />
+          <br >
           • How would you measure your actual thoughts and desires compared to these qualities?
         </div>
       </div>
@@ -166,12 +169,13 @@
         <div class="activity-title">Will, Intellect &amp; Fantasy</div> To what degree have the truths in this passage settled in to who you are? Are you living in obedience to these truths? Are you only intellectually agreeing with these truths but not obeying? Or are you aware of these teachings but not personally agreeing to them?
       </div>
     </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'inductive-activities',
+  name: 'InductiveActivities',
   data () {
     return {
     }
@@ -183,7 +187,6 @@ export default {
 
 <style lang="less" scoped>
 .inductive-activities {
-  padding: 10px 20px;
   h2 {
     margin-top: 25px;
     margin-bottom: 15px;

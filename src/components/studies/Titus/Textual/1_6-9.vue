@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: 'Titus1_6-9',
+  name: 'Titus169',
   data () {
     return {
     }

@@ -5,7 +5,11 @@
       <a @click="$router.push('/')">Home</a>
     </div>
 
-    <div data-session="1" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(1)" @click="setSession(1)">
+    <div
+      :class="sessionClasses(1)"
+      data-session="1"
+      class="theme-mid pad rounded shadow marginb"
+      @click="setSession(1)">
       <h2>SESSION 1 <span class="muted">Romans 4-6</span></h2>
       <p>Overview &amp; Context</p>
       <div class="detail hi-top">
@@ -20,13 +24,17 @@
           <p>The sin of humans resulting in death <span class="callout alt">Genesis6:5-8</span></p>
           <p>The giving of the law <span class="callout alt">Exodus 24:12; Exodus 28:33-35</span></p>
           <p>At the right time - The betrayal and death of Christ <span class="callout alt">John 18:3-11, Mark 15:34-39</span></p>
-          <br />
+          <br >
           <p>Now, read Romans 4-6</p>
         </div>
       </div>
     </div>
 
-    <div data-session="2" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(2)" @click="setSession(2)">
+    <div
+      :class="sessionClasses(2)"
+      data-session="2"
+      class="theme-mid pad rounded shadow marginb"
+      @click="setSession(2)">
       <h2>SESSION 2 <span class="muted">Romans 4</span></h2>
       <p>Observe</p>
       <div class="detail margint hi-top">
@@ -37,7 +45,11 @@
       </div>
     </div>
 
-    <div data-session="3" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(3)" @click="setSession(3)">
+    <div
+      :class="sessionClasses(3)"
+      data-session="3"
+      class="theme-mid pad rounded shadow marginb"
+      @click="setSession(3)">
       <h2>SESSION 3 <span class="muted">Romans 4</span></h2>
       <p>Interpret &amp; Apply</p>
       <div class="detail margint hi-top">
@@ -57,7 +69,11 @@
       </div>
     </div>
 
-    <div data-session="4" class="theme-mid pad rounded shadow marginb" :class="sessionClasses(4)" @click="setSession(4)">
+    <div
+      :class="sessionClasses(4)"
+      data-session="4"
+      class="theme-mid pad rounded shadow marginb"
+      @click="setSession(4)">
       <h2>SESSION 4 <span class="muted">Romans 5:1-11</span></h2>
       <p>Observe, Interpret, Apply</p>
       <div class="detail margint hi-top">
@@ -71,7 +87,7 @@
 
 <script>
 export default {
-  name: 'romans',
+  name: 'Romans',
   data () {
     return {
       visibleSession: 0
