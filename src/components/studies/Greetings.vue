@@ -11,13 +11,26 @@
         v-for="(greeting, i) in greetings"
         :key="i"
         :style="{backgroundColor: color(i)}"
-        class="greeting flex-column">
+        class="greeting flex-column pointer"
+        @click="focusGreeting(greeting)">
         <div class="flex-one flex-column pad">
           <h2>{{ greeting.book }}</h2>
           <div class="flex-one scrolly">{{ greeting.text }}</div>
         </div>
       </div>
     </div>
+
+    <transition name="fade">
+      <div v-if="focusedGreeting" class="modal-overlay cover z3 flex-column flex-center align-center">
+        <div class="modal rounded font-large shadow-long flex-column">
+          <p class="muted marginb">{{ focusedGreeting.book }}</p>
+          <p class="flex-one scrolly">{{ focusedGreeting.text }}</p>
+          <div class="margint text-right">
+            <button class="alt margint" @click="focusedGreeting = undefined">close</button>
+          </div>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -28,6 +41,7 @@ export default {
   name: 'Greetings',
   data () {
     return {
+      focusedGreeting: undefined,
       colors: ['#2D3042', '#425056', '#C48F87', '#99a', '#CE6742', '#793E2F', '#C49837']
     }
   },
@@ -39,6 +53,9 @@ export default {
   methods: {
     color (index) {
       return this.colors[index % (this.colors.length)]
+    },
+    focusGreeting (greeting) {
+      this.focusedGreeting = greeting
     }
   }
 }
@@ -69,5 +86,17 @@ export default {
         opacity: 0.6;
         text-shadow: 1px 0px 0px #001;
     }
+}
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.modal {
+  width: 70%;
+  max-width: 430px;
+  max-height: 80%;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(45deg, #111, #223);
+  box-shadow: 1px 1px 20px black;
 }
 </style>
