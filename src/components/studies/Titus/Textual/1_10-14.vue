@@ -22,13 +22,6 @@
     not devoting themselves to Jewish myths
     and the commands of people who turn away
     from the truth.
-    <div>
-      <h1>Hello world!</h1>
-      <button @click="toggleDetails">see more</button>
-    </div>
-    <div v-if="shouldShowDetails">
-      Details about the world
-    </div>
   </div>
 </template>
 
@@ -37,7 +30,6 @@ export default {
   name: 'Titus11014',
   data () {
     return {
-      shouldShowDetails: false
     }
   },
   methods: {
