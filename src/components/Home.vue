@@ -20,7 +20,7 @@
         <resource-row title="Family Worship" description="A short guide" link="resources/family-worship" icon="fa-users">
         </resource-row>
 
-        <hr class="muted-border">
+        <div class="pad"></div>
         <h2 class="font-large marginb">Various studies</h2>
 
         <resource-row title="Greetings of the New Testament" description="Compare the greetings of New Testament letters." link="greetings" icon="fa-envelope">
