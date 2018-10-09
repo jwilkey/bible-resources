@@ -28,7 +28,7 @@
 
         <resource-row link="romans" title="Romans: a few short studies"></resource-row>
 
-        <resource-row link="philippians/studies/1" title="Philippians" description="A group Bible study"></resource-row>
+        <resource-row link="philippians/cloud" title="Philippians" description="A group Bible study"></resource-row>
       </div>
     </div>
   </div>

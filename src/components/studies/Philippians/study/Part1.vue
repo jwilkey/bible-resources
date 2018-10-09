@@ -1,8 +1,10 @@
 <template>
   <div>
+    <h4 class="marginb hi-bottom small-pad"><span class="callout alt small-pad hi-right">Text</span> Philippians 1:1-11; Acts 16</h4>
+
     <p class="marginb">After praying, asking God to give you spiritual understanding through His Spirit, begin:</p>
 
-    <h2>Primer: Greetings to you!</h2>
+    <h3>Primer: Greetings to you!</h3>
     <p>Read each of the greetings below, then answer these questions for each one:</p>
     <ul>
       <li>• Who is the author?</li>
