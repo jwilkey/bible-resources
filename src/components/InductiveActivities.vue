@@ -8,26 +8,31 @@
     </div>
 
     <div class="content flex-column">
-      <div class="activities-nav marginb">
-        <div class="flex-row flex-center">
-          <h2 class="font-large pointer small-pad" @click="category = 'observe'">Observe</h2>
-          <h2 class="font-large marginl marginr pointer small-pad" @click="category = 'interpret'">Interpret</h2>
-          <h2 class="font-large pointer small-pad" @click="category = 'apply'">Apply</h2>
+      <div class="activities-nav marginb margint">
+        <div class="flex-row flex-center activity-categories">
+          <button class="font-large pointer" :class="{clear: category !== 'observe'}" @click="category = 'observe'">Observe</button>
+          <button class="font-large marginl marginr pointer" :class="{clear: category !== 'interpret'}" @click="category = 'interpret'">Interpret</button>
+          <button class="font-large pointer" :class="{clear: category !== 'apply'}" @click="category = 'apply'">Apply</button>
         </div>
 
-        <div v-if="category === 'observe'" class="flex-row flex-wrap flex-center">
-          <p v-for="(title, i) in observeTitles" :key="i" @click="show(title)" class="pad pointer">{{title}}</p>
-        </div>
-        <div v-if="category === 'interpret'" class="flex-row flex-wrap flex-center">
-          <p v-for="(title, i) in interpretTitles" :key="i" @click="show(title)" class="pad pointer">{{title}}</p>
-        </div>
-        <div v-if="category === 'apply'" class="flex-row flex-wrap flex-center">
-          <p v-for="(title, i) in applyTitles" :key="i" @click="show(title)" class="pad pointer">{{title}}</p>
-        </div>
       </div>
 
-      <div class="flex-one pad">
-      <!-- OBSERVE -->
+      <div class="flex-one flex-row pad">
+        <div>
+          <div v-if="category === 'observe'" class="flex-column">
+            <p v-for="(title, i) in observeTitles" :key="i" @click="show(title)" class="pad pointer" :class="{white: activeTitle === title}">{{title}}</p>
+          </div>
+          <div v-if="category === 'interpret'" class="flex-column">
+            <p v-for="(title, i) in interpretTitles" :key="i" @click="show(title)" class="pad pointer" :class="{white: activeTitle === title}">{{title}}</p>
+          </div>
+          <div v-if="category === 'apply'" class="flex-column">
+            <p v-for="(title, i) in applyTitles" :key="i" @click="show(title)" class="pad pointer" :class="{white: activeTitle === title}">{{title}}</p>
+          </div>
+        </div>
+
+        <div class="flex-one">
+        </div>
+        <!-- OBSERVE -->
         <div class='activity shadow rounded theme-mid pad'>
           <div class='activity-title'>People, Places, Things</div> These are the building blocks of the text, can you find them all?
           The goal of this activity shadow rounded is to become familiar with the text by reading it slowly and intentionally calling out the people, places and things (or for grammar fans, the nouns). Take note of pronouns (he, she, I, etc) that refer back to the same person.
@@ -109,7 +114,7 @@
           List the passages and in what ways they are similar.
         </div>
 
-      <!-- APPLY -->
+        <!-- APPLY -->
         <div class='activity shadow rounded theme-mid pad'>
           <div class='activity-title'>Church</div> What implications does this passage have for you as a church member, for your fellow church family, for the church in your city/region?
           What would it look like for you to be a living example of this text in your church? To what degree are you this example now?
@@ -153,20 +158,20 @@
           <div class='activity-title'>Outward-Inward</div>
           <div>
             This activity shadow rounded is meant to help you think honestly about differences in who you are to others, in your habits, in your values and in your inner self.
-            <br >
+            <br>
             Observe the different character qualities in the text. For each question below, you are being measured in 2 ways:
-            <br >
+            <br>
             (1) to what degree you are an example of each character quality, and
-            <br >
+            <br>
             (2) to what degree you are relying on yourself versus relying on Spirit for this character quality.
-            <br >
-            <br >
+            <br>
+            <br>
             If your family were to compare you to these qualities, how would they measure you? Your co-workers, neighbors, etc.?
-            <br >
+            <br>
             • How would you measure your actual habits and behaviors compared to these qualities?
-            <br >
+            <br>
             • How would you measure your values and beliefs compared to these qualities?
-            <br >
+            <br>
             • How would you measure your actual thoughts and desires compared to these qualities?
           </div>
         </div>
@@ -174,7 +179,7 @@
         <div class='activity shadow rounded theme-mid pad'>
           <div class='activity-title'>I am &amp; I am not</div> What is happening in this text? What is commanded or modeled? How are you doing these things? How are you not doing these things? What is Jesus making you in regards to these things?
           When thinking about this passage, and being honest with myself:
-          I am…  (being unfruitful by…)
+          I am… (being unfruitful by…)
           I am not… (being unfruitful by…)
           Jesus is doing this in my life… (helping me to be fruitful by…)
         </div>
@@ -193,6 +198,7 @@ export default {
   data () {
     return {
       category: undefined,
+      activeTitle: undefined,
       observeTitles: [
         'People, Places, Things',
         'Cause & Effect',
@@ -242,6 +248,7 @@ export default {
   },
   methods: {
     show (title) {
+      this.activeTitle = title
       const shownActivity = this.$el.querySelector('.activity.show')
       if (shownActivity) {
         shownActivity.classList.remove('show')
@@ -277,7 +284,7 @@ export default {
   .pointer:hover {
     border-radius: 4px;
     background-color: white;
-    transition: background-color .3s;
+    transition: background-color 0.3s;
   }
 }
 </style>
