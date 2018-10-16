@@ -12,6 +12,9 @@
         <li>
           <router-link to="/philippians/studies/2" class="callout alt">Study 2</router-link>
         </li>
+        <li>
+          <router-link to="/philippians/studies/3" class="callout alt">Study 3</router-link>
+        </li>
       </ul>
       <hr>
       <router-view></router-view>
