@@ -17,6 +17,9 @@
         <resource-row title="Bible Study Activities" description="A list of Bible study activities to help you have a meaningful time in God's word." link="inductive-activities" icon="fa-book-reader">
         </resource-row>
 
+        <resource-row title="True Songs" description="A music streaming app for Scripture songs" link="https://songs.truewordsapp.com" image="/static/images/true-songs.png">
+        </resource-row>
+
         <resource-row title="Family Worship" description="A short guide" link="resources/family-worship" icon="fa-users">
         </resource-row>
 
