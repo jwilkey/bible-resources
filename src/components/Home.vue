@@ -29,6 +29,8 @@
         <resource-row title="Greetings of the New Testament" description="Compare the greetings of New Testament letters." link="greetings" icon="fa-envelope">
         </resource-row>
 
+        <resource-row link="proverbs21" title="Proverbs 21" description="A study for songs"></resource-row>
+
         <resource-row link="romans" title="Romans: a few short studies"></resource-row>
 
         <resource-row link="philippians/cloud" title="Philippians" description="A group Bible study"></resource-row>

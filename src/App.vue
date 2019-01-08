@@ -16,5 +16,8 @@ export default {
 @import '../static/less/common';
 
 #app {
+  .prewrap {
+    white-space: pre-wrap;
+  }
 }
 </style>

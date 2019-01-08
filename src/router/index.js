@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import InductiveActivities from '@/components/InductiveActivities'
 import FamilyWorship from '@/components/resources/FamilyWorship'
+import Proverbs21 from '@/components/studies/Proverbs/21/Index'
+import proverbs21Router from '@/components/studies/Proverbs/21/router.js'
 import Romans from '@/components/studies/Romans'
 import Philippians from '@/components/studies/Philippians/study/Index.vue'
 import philippiansRouter from '@/components/studies/Philippians/router.js'
@@ -26,6 +28,12 @@ export default new Router({
       path: '/resources/family-worship',
       name: 'FamilyWorship',
       component: FamilyWorship
+    },
+    {
+      path: '/proverbs21',
+      name: 'Proverbs',
+      component: Proverbs21,
+      children: proverbs21Router
     },
     {
       path: '/romans',
