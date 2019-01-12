@@ -1,6 +1,11 @@
 <template>
-  <div class="content">
-    <div class="pad">
+  <div class="content flex-column">
+    <div class="flex-row align-center pad theme-mid shadow z1">
+      <a class="alt rounded blue small-pad marginl" @click="$router.push('/')"><i class="fas fa-home"></i></a>
+      <h1 class="font-large pad">Family Worship</h1>
+    </div>
+
+    <div class="pad scrolly">
       <div class="theme-mid pad shadow rounded">
         <h3>Supplies</h3>
         <p>Hymnal</p>
