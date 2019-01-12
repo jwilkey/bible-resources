@@ -17,7 +17,7 @@ spinner.start()
 
 rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
   if (err) throw err
-  cp('-f', `~/workspace/vuejs/bible-resources/CNAME`, config.build.assetsRoot)
+  cp('-f', `./CNAME`, config.build.assetsRoot)
   webpack(webpackConfig, (err, stats) => {
     spinner.stop()
     if (err) throw err
