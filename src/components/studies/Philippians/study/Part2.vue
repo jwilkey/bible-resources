@@ -1,15 +1,15 @@
 <template>
   <div>
-    <h4 class="marginb hi-bottom small-pad"><span class="callout alt small-pad hi-right">Text</span> Philippians 1:1-11</h4>
+    <h4 class="m2-bottom hi-bottom p1"><span class="primary p1 hi-right">Text</span> Philippians 1:1-11</h4>
 
-    <p class="marginb">Pray, asking God to give you spiritual understanding through His Spirit</p>
+    <p class="m2-bottom">Pray, asking God to give you spiritual understanding through His Spirit</p>
 
     <h3>Primer</h3>
     <p>Think about a time that someone did something for you that made you thankful for them. How did you express your gratitude, both inwardly and outwardly?</p>
 
     <hr>
 
-    <p class="hi-left padl marginb">As we read through the passage, let's look at what we learn about the key persons. In a New Testament letter, the key persons will usually be the author, the audience, and God.</p>
+    <p class="hi-left p2-left m2-bottom">As we read through the passage, let's look at what we learn about the key persons. In a New Testament letter, the key persons will usually be the author, the audience, and God.</p>
 
     <h3>Read</h3>
     <p>Philippians 1:1-11</p>
@@ -23,7 +23,7 @@
       <li class="subq">which of these things describe what God does?</li>
     </ul>
 
-    <p class="hi-left padl muted">the follow-up questions about the author and audience are somewhat of "trick questions"; observing facts may seem mundane if we are distracted, but there is something to learn and enjoy from each detail if we are willing.</p>
+    <p class="hi-left p2-left tertiary">the follow-up questions about the author and audience are somewhat of "trick questions"; observing facts may seem mundane if we are distracted, but there is something to learn and enjoy from each detail if we are willing.</p>
 
     <h3>What does it mean...</h3>
     <ul class="questions">
@@ -48,7 +48,7 @@
   </div>
 </template>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .pre {
   white-space: pre-line;
   margin-bottom: 10px;

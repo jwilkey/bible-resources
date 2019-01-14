@@ -1,14 +1,14 @@
 <template>
-  <div class="theme-mid rounded pad shadow marginb flex-row align-center" @click="open">
+  <div class="bg-base rounded p2 shadow m2-bottom flex-row align-center" @click="open">
     <div class="flex-one flex-row align-center">
-      <img v-if="image" class="icon-image marginr rounded" :src="image">
-      <i v-if="icon" class="icon-image fa marginr" :class="[icon]"></i>
-      <div>
-        <h1 class="font-large">{{ title }}</h1>
-        <p class="muted">{{ description }}</p>
+      <div v-if="image" class="icon-image m2-right rounded" :style="{'background-image': `url(${image})`}"></div>
+      <i v-if="icon" class="icon-image primary fa m2-right" :class="[icon]"></i>
+      <div class="flex-one">
+        <h1 class="font4">{{ title }}</h1>
+        <p class="tertiary">{{ description }}</p>
       </div>
     </div>
-    <p class="pad nopad-right muted-more marginl"><i class="fas fa-chevron-right"></i></p>
+    <p class="p2 p0-right tertiary2 m2-left"><i class="fas fa-chevron-right"></i></p>
   </div>
 </template>
 
@@ -38,12 +38,14 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .icon-image {
   height: 45px;
   width: 45px;
   &.hue-adjust {
     filter: hue-rotate(90deg);
   }
+  background-size: cover;
+  background-position: center;
 }
 </style>

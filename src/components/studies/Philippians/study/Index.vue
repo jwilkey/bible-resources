@@ -1,19 +1,20 @@
 <template>
-  <div class="theme-mid">
-    <div class="flex-row align-center callout shadow">
-      <a class="alt rounded blue small-pad marginl" @click="$router.push('/')"><i class="fas fa-home"></i></a>
-      <h1 class="font-large pad">Philippians</h1>
+  <div class="flex-column">
+    <div class="flex-row bg-base align-center m2-bottom primary shadow">
+      <a class="alt rounded tertiary p1 m2-left" @click="$router.push('/')"><i class="fas fa-home"></i></a>
+      <h1 class="font4 p2">Philippians</h1>
     </div>
-    <div class="pad bottompad">
+
+    <div class="content flex-one scrolly bg-base p2 p5-bottom">
       <ul class="study-list flex-row flex-wrap">
         <li>
-          <router-link to="/philippians/studies/1" class="callout alt">Study 1</router-link>
+          <router-link to="/philippians/studies/1" class="primary">Study 1</router-link>
         </li>
         <li>
-          <router-link to="/philippians/studies/2" class="callout alt">Study 2</router-link>
+          <router-link to="/philippians/studies/2" class="primary">Study 2</router-link>
         </li>
         <li>
-          <router-link to="/philippians/studies/3" class="callout alt">Study 3</router-link>
+          <router-link to="/philippians/studies/3" class="primary">Study 3</router-link>
         </li>
       </ul>
       <hr>
@@ -22,7 +23,7 @@
   </div>
 </template>
 
-<style lang="less">
+<style lang="scss">
 .study-list {
   li {
     &:not(:first-child):before {

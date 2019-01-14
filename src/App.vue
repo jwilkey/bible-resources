@@ -12,8 +12,8 @@ export default {
 }
 </script>
 
-<style lang="less">
-@import '../static/less/common';
+<style lang="scss">
+@import "./assets/sass/app";
 
 #app {
   .prewrap {

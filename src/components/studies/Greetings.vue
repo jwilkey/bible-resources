@@ -1,10 +1,10 @@
 <template>
-  <div class="greetings vfull flex-column">
+  <div class="greetings v-fill flex-column">
     <div class="flex-row align-center">
       <a
-        class="alt rounded blue small-pad marginl"
+        class="alt rounded blue p1 m2-left"
         @click="$router.push('/')"><i class="fas fa-home"></i></a>
-      <h1 class="font-large pad">New Testament Greetings</h1>
+      <h1 class="font4 p2">New Testament Greetings</h1>
     </div>
     <div class="flex-one flex-row flex-wrap flex-center scrolly">
       <div
@@ -13,7 +13,7 @@
         :style="{backgroundColor: color(i)}"
         class="greeting flex-column pointer"
         @click="focusGreeting(greeting)">
-        <div class="flex-one flex-column pad">
+        <div class="flex-one flex-column p2">
           <h2>{{ greeting.book }}</h2>
           <div class="flex-one scrolly">{{ greeting.text }}</div>
         </div>
@@ -22,11 +22,11 @@
 
     <transition name="fade">
       <div v-if="focusedGreeting" class="modal-overlay cover z3 flex-column flex-center align-center">
-        <div class="modal rounded font-large shadow-long flex-column">
-          <p class="muted marginb">{{ focusedGreeting.book }}</p>
+        <div class="modal rounded font4 shadow-long flex-column">
+          <p class="tertiary m2-bottom">{{ focusedGreeting.book }}</p>
           <p class="flex-one scrolly">{{ focusedGreeting.text }}</p>
-          <div class="margint text-right">
-            <button class="alt margint" @click="focusedGreeting = undefined">close</button>
+          <div class="m2-top text-right">
+            <button class="alt m2-top" @click="focusedGreeting = undefined">close</button>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .greetings {
     color: #C48F87;
     background: linear-gradient(45deg, #111, #223);

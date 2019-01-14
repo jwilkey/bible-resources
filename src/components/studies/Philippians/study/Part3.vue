@@ -1,15 +1,15 @@
 <template>
   <div>
-    <h4 class="marginb hi-bottom small-pad"><span class="callout alt small-pad hi-right">Text</span> Philippians 1:12-21</h4>
+    <h4 class="m2-bottom hi-bottom p1"><span class="primary p1 hi-right">Text</span> Philippians 1:12-21</h4>
 
-    <p class="marginb">Pray, asking God to give you spiritual understanding through His Spirit</p>
+    <p class="m2-bottom">Pray, asking God to give you spiritual understanding through His Spirit</p>
 
     <h3>Primer</h3>
     <p>Describe a time when you faced challenge or hardship that had positive or helpful side effects. If this is hard to recall, think of a time that was hard for you; what have you learned from that experience? What did others learn from your experience?</p>
 
     <hr>
 
-    <p class="hi-left padl marginb">As we read through the passage, let's look at what we learn about God. Let's also pay attention to causes and effects that we see in this portion of Paul's letter.</p>
+    <p class="hi-left p2-left m2-bottom">As we read through the passage, let's look at what we learn about God. Let's also pay attention to causes and effects that we see in this portion of Paul's letter.</p>
 
     <h3>Read</h3>
     <p>Philippians 1:12-21</p>
@@ -34,7 +34,7 @@
     <p>What would you say is the author's main point or thesis in this passage?</p>
 
     <h3>Apply it</h3>
-    <p><span class="muted">Think about it:</span> much of what is being described in this passage has to do with Christians spreading the Gospel of Jesus, especially in the face of persecution. According to Paul in v14, "most" of the Christians were speaking God's word without fear.</p>
+    <p><span class="tertiary">Think about it:</span> much of what is being described in this passage has to do with Christians spreading the Gospel of Jesus, especially in the face of persecution. According to Paul in v14, "most" of the Christians were speaking God's word without fear.</p>
     <ul class="questions">
       <li>How are you doing when it comes to speaking God's word without fear?</li>
       <li class="subq">what do you sometimes fear when it comes to speaking God's word?</li>
@@ -48,7 +48,7 @@
   </div>
 </template>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .pre {
   white-space: pre-line;
   margin-bottom: 10px;

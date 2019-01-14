@@ -1,6 +1,6 @@
 <template>
-  <div class="pad">
-    <h3 class="marginb">Proverbs 21:7-8</h3>
+  <div class="p2">
+    <h3 class="m2-bottom">Proverbs 21:7-8</h3>
     <div class="verses" :class="{chords: showChords}">
       <p>The violence of the wicked will sweep them away,</p>
       <p>because they refuse to do what is just.</p>
@@ -10,8 +10,8 @@
       <p>but the conduct of the pure is upright.</p>
     </div>
 
-    <div class="text-right margint">
-      <a class="small-pad" :class="{muted: !showChords}" @click="toggleChords">chords</a>
+    <div class="text-right m2-top">
+      <a class="p1" :class="{tertiary: !showChords}" @click="toggleChords">chords</a>
     </div>
 
     <hr>
@@ -65,7 +65,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .verses p {
   position: relative;
   line-height: 240%;

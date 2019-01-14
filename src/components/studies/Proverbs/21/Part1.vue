@@ -1,6 +1,6 @@
 <template>
-  <div class="pad">
-    <h3 class="marginb">Proverbs 21:1-3</h3>
+  <div class="p2">
+    <h3 class="m2-bottom">Proverbs 21:1-3</h3>
     <div class="verses" :class="{chords: showChords}">
       <p><chd val="Em"/>The king's heart is a stream of water</p>
       <p><chd val="A"/>in the hand of the LORD;</p>
@@ -16,8 +16,8 @@
       <p>is more acceptable to the LORD than sacrifice.</p>
     </div>
 
-    <div class="text-right margint">
-      <a class="small-pad" :class="{muted: !showChords}" @click="toggleChords">chords</a>
+    <div class="text-right m2-top">
+      <a class="p1" :class="{tertiary: !showChords}" @click="toggleChords">chords</a>
     </div>
 
     <hr>
@@ -59,7 +59,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .verses p {
   position: relative;
   line-height: 240%;

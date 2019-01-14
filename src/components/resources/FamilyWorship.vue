@@ -1,12 +1,12 @@
 <template>
   <div class="content flex-column">
-    <div class="flex-row align-center pad theme-mid shadow z1">
-      <a class="alt rounded blue small-pad marginl" @click="$router.push('/')"><i class="fas fa-home"></i></a>
-      <h1 class="font-large pad">Family Worship</h1>
+    <div class="flex-row align-center p2 bg-base shadow z1">
+      <a class="alt rounded blue p1 m2-left" @click="$router.push('/')"><i class="fas fa-home"></i></a>
+      <h1 class="font4 p2">Family Worship</h1>
     </div>
 
-    <div class="pad scrolly">
-      <div class="theme-mid pad shadow rounded">
+    <div class="p2 scrolly">
+      <div class="bg-base p2 shadow rounded">
         <h3>Supplies</h3>
         <p>Hymnal</p>
         <p>Bible</p>
@@ -26,7 +26,7 @@
         <hr>
 
         <h3>Other good things</h3>
-        <p>• Music videos - check out this <a class="callout alt" href="https://www.youtube.com/playlist?list=PLPAC0JCGMntT5YT98E1nAp5aVDTDz8_lc">YouTube playlist</a></p>
+        <p>• Music videos - check out this <a class="primary" href="https://www.youtube.com/playlist?list=PLPAC0JCGMntT5YT98E1nAp5aVDTDz8_lc">YouTube playlist</a></p>
         <p>• Read books together aloud</p>
       </div>
     </div>
