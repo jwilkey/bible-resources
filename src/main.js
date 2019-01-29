@@ -5,6 +5,14 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+Vue.mixin({
+  methods: {
+    arrNotEmpty (value) {
+      return Array.isArray(value) && value.length > 0
+    }
+  }
+})
+
 new Vue({
   router,
   store,

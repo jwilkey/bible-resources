@@ -5,6 +5,7 @@
       <router-link class="contrast hi-right p2" to="/proverbs21/part/1">Part 1</router-link>
       <router-link class="contrast hi-right p2" to="/proverbs21/part/2">Part 2</router-link>
       <router-link class="contrast hi-right p2" to="/proverbs21/part/3">Part 3</router-link>
+      <router-link class="contrast hi-right p2" to="/proverbs21/part/4">Part 4</router-link>
     </div>
 
     <div class="hi-top"></div>

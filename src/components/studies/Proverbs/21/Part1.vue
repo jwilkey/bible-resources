@@ -22,18 +22,13 @@
 
     <hr>
 
-    <div>
-      <h3>Objects</h3>
-      <p><span v-for="(o, i) in objects" :key="i"> • {{o}}</span></p>
-
-      <h3>Actions</h3>
-      <p><span v-for="(o, i) in actions" :key="i"> • {{o}}</span></p>
-    </div>
+    <study-notes :objects="objects" :actions="actions" :adjectives="adjectives" :tone="tone" />
   </div>
 </template>
 
 <script>
 import Chd from '@/components/studies/Chord'
+import StudyNotes from '@/components/studies/Proverbs/21/StudyNotes'
 
 export default {
   name: 'SongStudy',
@@ -50,7 +45,7 @@ export default {
       ]
     }
   },
-  components: { Chd },
+  components: { Chd, StudyNotes },
   methods: {
     toggleChords () {
       this.showChords = !this.showChords
@@ -71,8 +66,5 @@ export default {
   p {
     line-height: inherit;
   }
-}
-h3 {
-  margin-bottom: 3px;
 }
 </style>
