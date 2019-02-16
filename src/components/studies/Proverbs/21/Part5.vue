@@ -1,12 +1,13 @@
 <template>
   <div class="p2">
-    <h3 class="m2-bottom">Proverbs 21:9</h3>
+    <h3 class="m2-bottom">Proverbs 21:10-12</h3>
     <div class="verses" :class="{chords: showChords}">
-      <p>It is better</p>
-      <p>to live in a corner</p>
-      <p>of the housetop</p>
-      <p>than in a house</p>
-      <p>shared with a quarrelsome wife.</p>
+      <p>The soul of the wicked desires evil;</p>
+      <p>his neighbor finds no mercy in his eyes.</p>
+      <p>When a scoffer is punished, the simple becomes wise;</p>
+      <p>when a wise man is instructed, he gains knowledge.</p>
+      <p>The Righteous One observes the house of the wicked;</p>
+      <p>he throws the wicked down to ruin.</p>
     </div>
 
     <div class="text-right m2-top">
@@ -29,12 +30,12 @@ export default {
     return {
       showChords: false,
       notes: {
-        people: ['quarrelsome wife'],
-        objects: ['corner of the housetop', 'house'],
-        actions: ['live', 'share'],
-        adjectives: ['quarrelsome'],
-        tone: ['warning', 'whimsical'],
-        'prayer of worship': 'God, thank you for my wife! She is a blessing to me, and guides me in Your ways. I desire and enjoy living in closeness with her. Her companionship helps me to understand the love and safety that I have with you. Help us to be an encouragement to other marriages. Help us to rightly challenge others into a marriage that honors You.'
+        people: [],
+        objects: [],
+        actions: [],
+        adjectives: [],
+        tone: [],
+        'prayer of worship': ''
       }
     }
   },

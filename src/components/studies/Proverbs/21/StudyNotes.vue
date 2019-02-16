@@ -3,7 +3,7 @@
     <div v-for="(value, key) in notes" :key="key" class="m2-bottom">
       <h3 class="uppercase">{{key}}</h3>
       <p v-if="arrNotEmpty(value)"><span v-for="(o, i) in value" :key="i"> • {{o}}</span></p>
-      <p v-else>{{value}}</p>
+      <p v-if="!Array.isArray(value)">{{value}}</p>
     </div>
 
 <!-- NON-NOTES METHOD -->
