@@ -22,6 +22,18 @@
         <li>
           <router-link to="/philippians/studies/9" class="primary">Study 9</router-link>
         </li>
+        <li>
+          <router-link to="/philippians/studies/10" class="primary">Study 10</router-link>
+        </li>
+        <li>
+          <router-link to="/philippians/studies/11" class="primary">Study 11</router-link>
+        </li>
+        <li>
+          <router-link to="/philippians/studies/12" class="primary">Study 12</router-link>
+        </li>
+        <li>
+          <router-link to="/philippians/studies/13" class="primary">Study 13</router-link>
+        </li>
       </ul>
       <hr>
       <router-view></router-view>
