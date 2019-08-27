@@ -40,7 +40,7 @@
         <!-- OBSERVE -->
         <div class="activity shadow bg-base p3">
           <div class="activity-title">People, Places, Things</div> These are the building blocks of the text, can you find them all?
-          The goal of this activity shadow rounded is to become familiar with the text by reading it slowly and intentionally calling out the people, places and things (or for grammar fans, the nouns). Take note of pronouns (he, she, I, etc) that refer back to the same person.
+          The goal of this activity is to become familiar with the text by reading it slowly and intentionally calling out the people, places and things (or for grammar fans, the nouns). Take note of pronouns (he, she, I, etc) that refer back to the same person.
         </div>
 
         <div class="activity shadow rounded bg-base p3">
@@ -66,32 +66,32 @@
         <!-- INTERPRET -->
         <div class="activity shadow rounded bg-base p3">
           <div class="activity-title">Phrasing</div> How is this passage structured in terms of sentences, phrases, lists, asides and references?
-          Put each phrase on a new line. It may help by starting with sentences, commas and other punctuation that marks a break in thought. The goal of this activity shadow rounded is to understand the flow of thought in the text and to help identify complex referencing of ideas. For example, in the sentence, “I came to you to bless you for the ongoing health of you faithful ministry, delivering to you the gift of love,” it may not be immediately clear that both ‘to bless you’ and ‘delivering to you the gift’ are referring back to ‘I came to you to’. As you move each phrase to it’s own line, experiment with indenting these lines to signal the word or phrase it is referring back to.
+          Put each phrase on a new line. It may help by starting with sentences, commas and other punctuation that marks a break in thought. The goal of this activity is to understand the flow of thought in the text and to help identify complex referencing of ideas. For example, in the sentence, “I came to you to bless you for the ongoing health of you faithful ministry, delivering to you the gift of love,” it may not be immediately clear that both ‘to bless you’ and ‘delivering to you the gift’ are referring back to ‘I came to you to’. As you move each phrase to it’s own line, experiment with indenting these lines to signal the word or phrase it is referring back to.
         </div>
 
         <div class="activity shadow rounded bg-base p3">
           <div class="activity-title">Groups</div> How can things be grouped together in this passage?
-          The goal of this activity shadow rounded is to find repeated words, ideas and relationships. As you read the passage, place each word into a group, either a new group by itself, or into a group formed from previous words which are linked or related in some way. It is ok to keep short phrases such as “led astray” or “hated by others” together. You may also place words/phrases into multiple groups.
+          The goal of this activity is to find repeated words, ideas and relationships. As you read the passage, place each word into a group, either a new group by itself, or into a group formed from previous words which are linked or related in some way. It is ok to keep short phrases such as “led astray” or “hated by others” together. You may also place words/phrases into multiple groups.
         </div>
 
         <div class="activity shadow rounded bg-base p3">
           <div class="activity-title">Topics</div> What are the topics and ideas discussed in this passage?
-          This activity shadow rounded is about identifying what is important in the passage and what topics this passage is adequately speaking to. It may be helpful to pretend you are building a Bible index that someone might use in order to find Scripture that relates to an arbitrary subject they have questions about. These topics may be derived from important words in the text, or they may be other words that capture the essence of an important phrase or idea reflected in the text. Topics are best if they are a single word, however, using a few words for a topic is allowed.
+          This activity is about identifying what is important in the passage and what topics this passage is adequately speaking to. It may be helpful to pretend you are building a Bible index that someone might use in order to find Scripture that relates to an arbitrary subject they have questions about. These topics may be derived from important words in the text, or they may be other words that capture the essence of an important phrase or idea reflected in the text. Topics are best if they are a single word, however, using a few words for a topic is allowed.
         </div>
 
         <div class="activity shadow rounded bg-base p3">
           <div class="activity-title">Interrogation</div> Ask every question you can think of pertaining to the text.
-          The goal of this activity shadow rounded is to acknowledge uncertainty you may have about the meaning, context or facts of the text. For example, you may ask ‘who was Artemas?’, ‘why was Paul at Nicopolis?’, ‘where was Nicopolis?’, and so on. This activity shadow rounded should help you think about and notice details that you may have otherwise overlooked. If you do this activity shadow rounded correctly it should become more an act of meditation than of interrogation, especially as you ask questions like, ‘what are cases of urgent need?’. Also, this interrogation is not for the purpose of trying to find deficiencies in the text itself, there are none, it is what God intended it to be; the goal is to uncover deficiencies in your understanding of what is being said or your knowledge of what God intends for us from this text.
+          The goal of this activity is to acknowledge uncertainty you may have about the meaning, context or facts of the text. For example, you may ask ‘who was Artemas?’, ‘why was Paul at Nicopolis?’, ‘where was Nicopolis?’, and so on. This activity should help you think about and notice details that you may have otherwise overlooked. If you do this activity correctly it should become more an act of meditation than of interrogation, especially as you ask questions like, ‘what are cases of urgent need?’. Also, this interrogation is not for the purpose of trying to find deficiencies in the text itself, there are none, it is what God intended it to be; the goal is to uncover deficiencies in your understanding of what is being said or your knowledge of what God intends for us from this text.
         </div>
 
         <div class="activity shadow rounded bg-base p3">
           <div class="activity-title">Outline</div> What are the main sections of the text? Give each section a title. Optionally add sub-points to each section title that capture the main ideas for that section.
-          You can identify a new section by changes in who/what the text is describing, the use of transition words (for, but, this, because, etc.), or a change in the author’s tone. Think of your section titles as news headlines, short headings that capture the essential message of the text. This activity shadow rounded is meant to help give you “mental hooks” on which to hang the full content of the passage. Feel free to argue with yourself over the location of a new section, doing so may help you think more deeply about what God is actually saying in the text!
+          You can identify a new section by changes in who/what the text is describing, the use of transition words (for, but, this, because, etc.), or a change in the author’s tone. Think of your section titles as news headlines, short headings that capture the essential message of the text. This activity is meant to help give you “mental hooks” on which to hang the full content of the passage. Feel free to argue with yourself over the location of a new section, doing so may help you think more deeply about what God is actually saying in the text!
         </div>
 
         <div class="activity shadow rounded bg-base p3">
           <div class="activity-title">Paraphrase</div> Retell the content of the passage in your own words by summarizing as much as possible and using as simple language as you can manage.
-          Try to remove any repetition of ideas and replace them with a single statement. Use words that a 7 year old would understand. Try to emphasize only the main ideas. This activity shadow rounded will help you identify the flow of thought and force you to think about what is really important, as well as what is generally being said (as opposed to getting distracted by a certain word or confusing phrase).
+          Try to remove any repetition of ideas and replace them with a single statement. Use words that a 7 year old would understand. Try to emphasize only the main ideas. This activity will help you identify the flow of thought and force you to think about what is really important, as well as what is generally being said (as opposed to getting distracted by a certain word or confusing phrase).
         </div>
 
         <div class="activity shadow rounded bg-base p3">
@@ -111,7 +111,7 @@
 
         <div class="activity shadow rounded bg-base p3">
           <div class="activity-title">Importance</div> What are the important words in this passage? Identify 5-10 of the most important words in the text and rank them in order of importance. Why are they important?
-          This activity shadow rounded is concerned with identifying the words that are important from the perspective of God’s meaning, not merely what stands out to you at this particular time. What words offer the most meaning, clarity, and direction to what is being said. Once you have identified these words, ask questions like these for the top 3: how does this word impact the meaning of the text? What if this word were changed or removed? How else is this word used in the Bible? How might cultural uses of this word affect how this passage is interpreted?
+          This activity is concerned with identifying the words that are important from the perspective of God’s meaning, not merely what stands out to you at this particular time. What words offer the most meaning, clarity, and direction to what is being said. Once you have identified these words, ask questions like these for the top 3: how does this word impact the meaning of the text? What if this word were changed or removed? How else is this word used in the Bible? How might cultural uses of this word affect how this passage is interpreted?
         </div>
 
         <div class="activity shadow rounded bg-base p3">
@@ -130,7 +130,7 @@
 
         <div class="activity shadow rounded bg-base p3">
           <div class="activity-title">Stewardship</div> What implications does this passage have on how you steward your time, money, thoughts and relationships?
-          Set the context for this activity shadow rounded by answering the following questions: In the next 3 days…
+          Set the context for this activity by answering the following questions: In the next 3 days…
           … What will you spend time doing?
           … For what will you spend money?
           … What attitudes and ideas will you think about?
@@ -152,7 +152,7 @@
         </div>
 
         <div class="activity shadow rounded bg-base p3">
-          <div class="activity-title">ACTS</div> This is an acronym and is primarily an activity shadow rounded of prayer. Consider the primer questions for each word in the acronym, then direct your thoughts toward God in prayer:
+          <div class="activity-title">ACTS</div> This is an acronym and is primarily an activity of prayer. Consider the primer questions for each word in the acronym, then direct your thoughts toward God in prayer:
           <div class="activity-title">Adoration</div> what does this passage teach about God’s character or attributes? Praise God for these qualities.
           <div class="activity-title">Confession</div> what specific or general sinfulness does Spirit reveal in your life through this passage? Confess this to God, accept His forgiveness and power to change.
           <div class="activity-title">Thankfulness</div> how does this passage reveal things you can be thankful for? Thank God for these things.
@@ -162,7 +162,7 @@
         <div class="activity shadow rounded bg-base p3">
           <div class="activity-title">Outward-Inward</div>
           <div>
-            This activity shadow rounded is meant to help you think honestly about differences in who you are to others, in your habits, in your values and in your inner self.
+            This activity is meant to help you think honestly about differences in who you are to others, in your habits, in your values and in your inner self.
             <br>
             Observe the different character qualities in the text. For each question below, you are being measured in 2 ways:
             <br>
