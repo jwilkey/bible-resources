@@ -1,12 +1,12 @@
 <template>
   <div class="content flex-column">
-    <div class="flex-row align-center p2 bg-base shadow z1">
-      <a class="alt rounded blue p1 m2-left" @click="$router.push('/')"><i class="fas fa-home"></i></a>
+    <div class="flex-row align-center p2-top base">
+      <a class="alt rounded secondary p1 m2-left" @click="$router.push('/')"><i class="fas fa-home"></i></a>
       <h1 class="font4 p2">Family Worship</h1>
     </div>
 
     <div class="p2 scrolly">
-      <div class="bg-base p2 shadow rounded">
+      <div class="bg-base p2 shadow">
         <h3>Supplies</h3>
         <p>Hymnal</p>
         <p>Bible</p>
