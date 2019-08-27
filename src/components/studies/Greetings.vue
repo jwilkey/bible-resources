@@ -11,7 +11,7 @@
         v-for="(greeting, i) in greetings"
         :key="i"
         :style="{backgroundColor: color(i)}"
-        class="greeting flex-column pointer"
+        class="greeting flex-column pointer scrolly"
         @click="focusGreeting(greeting)">
         <div class="flex-one flex-column p2">
           <h2>{{ greeting.book }}</h2>
@@ -22,7 +22,7 @@
 
     <transition name="fade">
       <div v-if="focusedGreeting" class="modal-overlay cover z3 flex-column flex-center align-center">
-        <div class="modal rounded font4 shadow-long flex-column">
+        <div class="modal rounded font4 shadow-long flex-column scrolly">
           <p class="tertiary m2-bottom">{{ focusedGreeting.book }}</p>
           <p class="flex-one scrolly">{{ focusedGreeting.text }}</p>
           <div class="m2-top text-right">

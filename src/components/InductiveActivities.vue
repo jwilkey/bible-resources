@@ -1,38 +1,44 @@
 <template>
   <div class="inductive-activities flex-column">
-    <div class="bg-base shadow">
+    <div class="">
       <div class="content flex-row align-center">
         <a class="alt rounded tertiary p1 m2-left" @click="$router.push('/')"><i class="fas fa-home"></i></a>
-        <h1 class="font4 p2">Inductive Activities</h1>
+        <h1 class="font4 border-bottom-tertiary white p2">Inductive Activities</h1>
       </div>
     </div>
 
     <div class="content flex-one flex-column scrolly">
       <div class="activities-nav m1-top">
-        <div class="flex-row activity-categories">
-          <button class="tab primary p1 font4 m2-right pointer" :class="{'border-primary': category === 'observe'}" @click="category = 'observe'">Observe</button>
-          <button class="tab primary p1 font4 m2-right pointer" :class="{'border-primary': category === 'interpret'}" @click="category = 'interpret'">Interpret</button>
-          <button class="tab primary p1 font4 m2-right pointer" :class="{'border-primary': category === 'apply'}" @click="category = 'apply'">Apply</button>
-        </div>
+        <ul class="flex-row activity-categories text-center uppercase white">
+          <li class="flex-one category-tab" :class="{'active-tab': category === 'observe'}" @click="category = 'observe'">Observe</li>
+          <li class="flex-one category-tab" :class="{'active-tab': category === 'interpret'}" @click="category = 'interpret'">Interpret</li>
+          <li class="flex-one category-tab" :class="{'active-tab': category === 'apply'}" @click="category = 'apply'">Apply</li>
+        </ul>
       </div>
 
       <div class="flex-one flex-row p2">
         <div class="m1-right">
-          <div v-if="category === 'observe'" class="flex-column">
-            <p v-for="(title, i) in observeTitles" :key="i" @click="show(title)" class="p1 border-bottom-primary pointer" :class="{white: activeTitle === title}">{{title}}</p>
-          </div>
-          <div v-if="category === 'interpret'" class="flex-column">
-            <p v-for="(title, i) in interpretTitles" :key="i" @click="show(title)" class="p1 border-bottom-primary pointer" :class="{white: activeTitle === title}">{{title}}</p>
-          </div>
-          <div v-if="category === 'apply'" class="flex-column">
-            <p v-for="(title, i) in applyTitles" :key="i" @click="show(title)" class="p1 border-bottom-primary pointer" :class="{white: activeTitle === title}">{{title}}</p>
-          </div>
+          <transition name="fade">
+            <div v-if="category === 'observe'" class="flex-column">
+              <p v-for="(title, i) in observeTitles" :key="i" @click="show(title)" class="activity-tab" :class="{active: activeTitle === title}">{{title}}</p>
+            </div>
+          </transition>
+          <transition name="fade">
+            <div v-if="category === 'interpret'" class="flex-column">
+              <p v-for="(title, i) in interpretTitles" :key="i" @click="show(title)" class="activity-tab" :class="{active: activeTitle === title}">{{title}}</p>
+            </div>
+          </transition>
+          <transition name="fade">
+            <div v-if="category === 'apply'" class="flex-column">
+              <p v-for="(title, i) in applyTitles" :key="i" @click="show(title)" class="activity-tab" :class="{active: activeTitle === title}">{{title}}</p>
+            </div>
+          </transition>
         </div>
 
-        <div class="flex-one">
-        </div>
+        <!-- <div class="flex-one">
+        </div> -->
         <!-- OBSERVE -->
-        <div class="activity shadow rounded bg-base p3">
+        <div class="activity shadow bg-base p3">
           <div class="activity-title">People, Places, Things</div> These are the building blocks of the text, can you find them all?
           The goal of this activity shadow rounded is to become familiar with the text by reading it slowly and intentionally calling out the people, places and things (or for grammar fans, the nouns). Take note of pronouns (he, she, I, etc) that refer back to the same person.
         </div>
@@ -259,40 +265,60 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/sass/app";
+
 .inductive-activities {
   h2 {
     margin-top: 25px;
     margin-bottom: 15px;
   }
-  .tab {
-    .active {
-      background-color: rgba(0, 0, 20, .3);
+  .category-tab {
+    @extend .p2;
+    @extend .border-right-secondary;
+    @extend .border-bottom-secondary;
+    &.active-tab {
+      @extend .bg-secondary;
+    }
+  }
+  .activity-tab {
+    @extend .p1;
+    @extend .border-bottom-primary;
+    @extend .tertiary;
+    @extend .pointer;
+    &.active {
+      @extend .white;
     }
   }
   .activity {
-    margin-bottom: 15px;
+    @extend .fade-in;
+    margin-bottom: 1px;
     display: none;
     line-height: 1.4;
+    overflow-y: auto;
     &.show {
       display: block;
     }
   }
   .activity-title {
+    @extend .primary;
     font-weight: bold;
-    color: #999;
     margin-bottom: 8px;
-  }
-}
-.activities-nav {
-  button {
-    transition: all .3s;
-  }
-  button:hover {
-    border-radius: 4px;
-    background-color: white;
   }
 }
 .white {
   color: white;
+}
+.fade-in {
+  animation-name: fade-in;
+  animation-fill-mode: forwards;
+  animation-duration: 0.7s;
+}
+@keyframes fade-in {
+  0% {
+    color: rgba(0,0,0,0);
+  }
+  100% {
+    opacity: 1;
+  }
 }
 </style>
