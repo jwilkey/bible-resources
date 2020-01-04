@@ -35,6 +35,8 @@
             <resource-row link="romans" title="Romans" description="a few short studies"></resource-row>
 
             <resource-row link="philippians/cloud" title="Philippians" description="A group Bible study"></resource-row>
+
+            <resource-row link="https://jwilkey.github.io/philemon" title="Philemon" description="A Study"></resource-row>
           </div>
         </div>
 
