@@ -26,3 +26,11 @@ hr {
 body {
   background: linear-gradient(45deg, $back-color, $back2-color);
 }
+
+.card {
+  @extend .p2;
+  @extend .bg-base;
+  @extend .shadow;
+  @extend .border-left-tertiary;
+  border-width: 4px;
+}

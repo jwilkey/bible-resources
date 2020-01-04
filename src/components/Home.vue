@@ -47,6 +47,8 @@
             <resource-row title="Family Worship" description="A short guide" link="resources/family-worship" icon="fa-users">
             </resource-row>
 
+            <resource-row title="Sabbath Dinner" description="An order of worship" link="resources/sabbath-dinner" icon="fa-church" />>
+
             <resource-row title="Greetings of the New Testament" description="Compare the greetings of New Testament letters." link="greetings" icon="fa-envelope">
             </resource-row>
           </div>
