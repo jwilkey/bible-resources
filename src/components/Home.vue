@@ -12,7 +12,7 @@
         <div class="m4-top">
           <h2 class="secondary m2-bottom">Apps</h2>
 
-          <div class="flex-row flex-wrap tiles">
+          <div class="grid grid2">
             <resource-row title="True Words" description="An interactive Bible study application." link="https://truewordsapp.com" image="https://truewordsapp.com/static/favicon.png"></resource-row>
 
             <resource-row title="True Words Spotlight" description="An interactive Bible reader. Tap words to find uses, search, find references to God, and more." link="https://spotlight.truewordsapp.com" image="/images/spotlight.png">
@@ -29,7 +29,7 @@
         <div class="m4-top">
           <h2 class="secondary m2-bottom">Bible studies</h2>
 
-          <div class="flex-row flex-wrap tiles">
+          <div class="grid grid3">
             <resource-row link="proverbs21" title="Proverbs 21" description="A study for songs"></resource-row>
 
             <resource-row link="romans" title="Romans" description="a few short studies"></resource-row>
@@ -43,14 +43,12 @@
         <div class="m4-top">
           <h2 class="secondary m2-bottom">Resources</h2>
 
-          <div class="flex-row flex-wrap tiles">
-            <resource-row title="Family Worship" description="A short guide" link="resources/family-worship" icon="fa-users">
-            </resource-row>
+          <div class="grid grid2">
+            <resource-row title="Family Worship" description="A short guide" link="resources/family-worship" icon="fa-users" />
 
-            <resource-row title="Sabbath Dinner" description="An order of worship" link="resources/sabbath-dinner" icon="fa-church" />>
+            <resource-row title="Sabbath Dinner" description="An order of worship" link="resources/sabbath-dinner" icon="fa-church" />
 
-            <resource-row title="Greetings of the New Testament" description="Compare the greetings of New Testament letters." link="greetings" icon="fa-envelope">
-            </resource-row>
+            <resource-row title="Greetings of the New Testament" description="Compare the greetings of New Testament letters." link="greetings" icon="fa-envelope" />
           </div>
         </div>
       </div>
@@ -74,17 +72,24 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/sass/app";
 
-.tiles {
-  * {
-    max-width: 350px;
-    @extend .m2-right;
-  }
-}
 .icon-image {
   height: 45px;
   width: 45px;
   &.hue-adjust {
     filter: hue-rotate(90deg);
+  }
+}
+.grid {
+  display: grid;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+@media (min-width: 600px) {
+  .grid2 {
+    grid-template-columns: auto auto;
+  }
+  .grid3 {
+    grid-template-columns: auto auto auto;
   }
 }
 </style>

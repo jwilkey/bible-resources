@@ -283,7 +283,7 @@ export default {
   .activity-tab {
     @extend .p1;
     @extend .border-bottom-primary;
-    @extend .tertiary;
+    @extend .tertiary2;
     @extend .pointer;
     &.active {
       @extend .white;

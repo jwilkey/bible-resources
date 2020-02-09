@@ -1,15 +1,18 @@
 $base-color: rgba(255, 255, 255, .95);
 $contrast-color: #131919;
-$primary: #2372bf;
-$primary2: lighten($primary, 12%);
-$primary3: lighten($primary, 22%);
-$secondary: #df6955;
-$tertiary: #BDA8A4;
 
 $back-color: #030d13;
 $back2-color: #3a3a5f;
 
 $shadow-color: $back-color;
+
+#app {
+  --primary: #2372bf;
+  --primary2: #4392cf;
+  --primary3: #63b2df;
+  --secondary: #df6955;
+  --tertiary: #BDA8A4;
+}
 
 @import "../../../node_modules/tentkeep-vue/src/assets/sass/base";
 
@@ -20,7 +23,7 @@ ul {
   list-style: none;
 }
 hr {
-  border-color: $tertiary;
+  border-color: var(--tertiary);
 }
 
 body {

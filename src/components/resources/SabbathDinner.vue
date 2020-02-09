@@ -106,10 +106,6 @@ export default {
   border-left: double 3px #cacaca;
   border-radius: 5px;
   padding-left: 4px;
-  // &::before {
-  //   content: ':: ';
-  //   @extend .tertiary2;
-  // }
 }
 .scripture {
   box-shadow: 0 0 5px #888;
