@@ -36,7 +36,7 @@
 
             <resource-row link="philippians/cloud" title="Philippians" description="A group Bible study"></resource-row>
 
-            <resource-row link="https://jwilkey.github.io/philemon" title="Philemon" description="A Study"></resource-row>
+            <resource-row link="https://jwilkey.github.io/bible-study-viewer" title="Bible Study Viewer" description="A collection of studies and an app for viewing your own studies"></resource-row>
           </div>
         </div>
 
