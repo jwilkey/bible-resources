@@ -4,6 +4,8 @@ import Home from '@/components/Home'
 import InductiveActivities from '@/components/InductiveActivities'
 import FamilyWorship from '@/components/resources/FamilyWorship'
 import SabbathDinner from '@/components/resources/SabbathDinner'
+import SabbathDinner2 from '@/components/resources/SabbathDinner2'
+import SabbathDinnerEvangelism from '@/components/resources/SabbathDinnerEvangelism'
 import Proverbs21 from '@/components/studies/Proverbs/21/Index'
 import proverbs21Router from '@/components/studies/Proverbs/21/router.js'
 import Romans from '@/components/studies/Romans'
@@ -34,6 +36,16 @@ export default new Router({
       path: '/resources/sabbath-dinner',
       name: 'SabbathDinner',
       component: SabbathDinner
+    },
+    {
+      path: '/resources/sabbath-dinner2',
+      name: 'SabbathDinner2',
+      component: SabbathDinner2
+    },
+    {
+      path: '/resources/sabbath-dinner-evangelism',
+      name: 'SabbathDinnerEvangelism',
+      component: SabbathDinnerEvangelism
     },
     {
       path: '/proverbs21',
