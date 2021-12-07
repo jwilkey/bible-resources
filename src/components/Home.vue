@@ -110,6 +110,12 @@
               link="resources/sabbath-dinner-evangelism"
               icon="fa-church"
             />
+            <resource-row
+              title="Sabbath Dinner - Advent"
+              description="An order of worship: Advent"
+              link="resources/sabbath-dinner-advent"
+              icon="fa-church"
+            />
 
             <resource-row
               title="Greetings of the New Testament"
