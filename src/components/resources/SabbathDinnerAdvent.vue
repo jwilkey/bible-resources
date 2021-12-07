@@ -200,7 +200,7 @@ export default {
 .aye {
   .participant {
     @extend .m1-left;
-    @extend .tertiary2;
+    color: #777;
   }
 }
 </style>
