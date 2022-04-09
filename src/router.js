@@ -1,5 +1,4 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '@/components/Home'
 import InductiveActivities from '@/components/InductiveActivities'
 import FamilyWorship from '@/components/resources/FamilyWorship'
@@ -14,9 +13,8 @@ import Philippians from '@/components/studies/Philippians/study/Index.vue'
 import philippiansRouter from '@/components/studies/Philippians/router.js'
 import Greetings from '@/components/studies/Greetings'
 
-Vue.use(Router)
-
-export default new Router({
+export default createRouter({
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',

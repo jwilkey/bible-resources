@@ -35,8 +35,6 @@
 </template>
 
 <script>
-import Chd from '@/components/studies/Chord'
-
 export default {
   name: 'SongStudy',
   data () {
@@ -44,19 +42,18 @@ export default {
       showChords: false,
       objects: ['violence', 'the wicked', 'what is just', 'the way of the guilty', 'conduct of the pure'],
       actions: [
-        `violence sweeping away`,
-        `refusing to do what is just`
+        'violence sweeping away',
+        'refusing to do what is just'
       ],
       adjectives: [
-        `away`,
-        `just`,
-        `crooked`,
-        `upright`
+        'away',
+        'just',
+        'crooked',
+        'upright'
       ],
       tone: ['warning', 'melancholy', 'stubborn', 'poignant', 'drifiting', 'revealing', 'hopeful']
     }
   },
-  components: { Chd },
   methods: {
     toggleChords () {
       this.showChords = !this.showChords

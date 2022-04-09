@@ -129,8 +129,8 @@
 
 <script>
 export default {
-  name: "SabbathDinnerEvangelism",
-};
+  name: 'SabbathDinnerEvangelism'
+}
 </script>
 
 <style lang="scss" scoped>

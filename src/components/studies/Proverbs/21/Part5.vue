@@ -1,7 +1,7 @@
 <template>
   <div class="p2">
     <h3 class="m2-bottom">Proverbs 21:10-12</h3>
-    <div class="verses" :class="{chords: showChords}">
+    <div class="verses" :class="{ chords: showChords }">
       <p>The soul of the wicked desires evil;</p>
       <p>his neighbor finds no mercy in his eyes.</p>
       <p>When a scoffer is punished, the simple becomes wise;</p>
@@ -11,17 +11,18 @@
     </div>
 
     <div class="text-right m2-top">
-      <a class="p1" :class="{tertiary: !showChords}" @click="toggleChords">chords</a>
+      <a class="p1" :class="{ tertiary: !showChords }" @click="toggleChords"
+        >chords</a
+      >
     </div>
 
-    <hr>
+    <hr />
 
     <study-notes :notes="notes" />
   </div>
 </template>
 
 <script>
-import Chd from '@/components/studies/Chord'
 import StudyNotes from '@/components/studies/Proverbs/21/StudyNotes'
 
 export default {
@@ -39,7 +40,7 @@ export default {
       }
     }
   },
-  components: { Chd, StudyNotes },
+  components: { StudyNotes },
   methods: {
     toggleChords () {
       this.showChords = !this.showChords

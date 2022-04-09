@@ -35,13 +35,13 @@ export default {
   data () {
     return {
       showChords: false,
-      objects: [`king's heart`, `stream of water`, `the hand of the LORD`, `way of a man`, `man's own eyes`, `man's heart`, `righteousness`, `justice`, `sacrifice`],
+      objects: ['king\'s heart', 'stream of water', 'the hand of the LORD', 'way of a man', 'man\'s own eyes', 'man\'s heart', 'righteousness', 'justice', 'sacrifice'],
       actions: [
         'being in the hand of the LORD',
-        `the LORD turning the king's heart`,
-        `the LORD weighs the heart`,
-        `to do righteousness`,
-        `to sacrifice`
+        'the LORD turning the king\'s heart',
+        'the LORD weighs the heart',
+        'to do righteousness',
+        'to sacrifice'
       ]
     }
   },

@@ -57,7 +57,7 @@ export default [
   {
     book: 'Titus',
     author: 'Paul',
-    text: `1 Paul, a servant of God and an apostle of Jesus Christ, for the sake of the faith of God's elect and their knowledge of the truth, which accords with godliness, 2 in hope of eternal life, which God, who never lies, promised before the ages began 3 and at the proper time manifested in his word through the preaching with which I have been entrusted by the command of God our Savior; 4 To Titus, my true child in a common faith: Grace and peace from God the Father and Christ Jesus our Savior.`
+    text: '1 Paul, a servant of God and an apostle of Jesus Christ, for the sake of the faith of God\'s elect and their knowledge of the truth, which accords with godliness, 2 in hope of eternal life, which God, who never lies, promised before the ages began 3 and at the proper time manifested in his word through the preaching with which I have been entrusted by the command of God our Savior; 4 To Titus, my true child in a common faith: Grace and peace from God the Father and Christ Jesus our Savior.'
   },
   {
     book: 'Philemon',
@@ -92,7 +92,7 @@ export default [
   {
     book: '2 John',
     author: 'John',
-    text: `1 The elder to the elect lady and her children, whom I love in truth, and not only I, but also all who know the truth, 2 because of the truth that abides in us and will be with us forever: 3 Grace, mercy, and peace will be with us, from God the Father and from Jesus Christ the Father's Son, in truth and love.`
+    text: '1 The elder to the elect lady and her children, whom I love in truth, and not only I, but also all who know the truth, 2 because of the truth that abides in us and will be with us forever: 3 Grace, mercy, and peace will be with us, from God the Father and from Jesus Christ the Father\'s Son, in truth and love.'
   },
   {
     book: '3 John',

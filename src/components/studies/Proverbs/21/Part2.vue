@@ -43,10 +43,10 @@ export default {
       showChords: false,
       objects: ['haughty eyes', 'proud heart', 'lamp', 'the wicked', 'sin', 'plans of the diligent', 'abundance', 'poverty', 'treasures', 'lying tongue', 'fleeting vapor', 'snare of death'],
       actions: [
-        `leading to abundance`,
-        `being hasty`,
-        `coming to poverty`,
-        `getting treasure by lying`
+        'leading to abundance',
+        'being hasty',
+        'coming to poverty',
+        'getting treasure by lying'
       ],
       tone: ['warning', 'grave', 'stern']
     }

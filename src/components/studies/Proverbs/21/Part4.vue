@@ -20,7 +20,6 @@
 </template>
 
 <script>
-import Chd from '@/components/studies/Chord'
 import StudyNotes from '@/components/studies/Proverbs/21/StudyNotes'
 
 export default {
@@ -38,7 +37,7 @@ export default {
       }
     }
   },
-  components: { Chd, StudyNotes },
+  components: { StudyNotes },
   methods: {
     toggleChords () {
       this.showChords = !this.showChords

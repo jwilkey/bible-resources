@@ -93,9 +93,9 @@ export default {
     width: 95%;
     z-index: -1;
   }
-  span { 
-    background: #fff; 
-    padding: 0 15px; 
+  span {
+    background: #fff;
+    padding: 0 15px;
   }
 }
 .leader {

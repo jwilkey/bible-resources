@@ -56,19 +56,19 @@
 
           <div class="grid grid3">
             <resource-row
-              link="proverbs21"
+              link="/proverbs21"
               title="Proverbs 21"
               description="A study for songs"
             ></resource-row>
 
             <resource-row
-              link="romans"
+              link="/romans"
               title="Romans"
               description="a few short studies"
             ></resource-row>
 
             <resource-row
-              link="philippians/cloud"
+              link="/philippians/cloud"
               title="Philippians"
               description="A group Bible study"
             ></resource-row>
@@ -88,32 +88,32 @@
             <resource-row
               title="Family Worship"
               description="A short guide"
-              link="resources/family-worship"
+              link="/resources/family-worship"
               icon="fa-users"
             />
 
             <resource-row
               title="Sabbath Dinner"
               description="An order of worship: Praise the King"
-              link="resources/sabbath-dinner"
+              link="/resources/sabbath-dinner"
               icon="fa-church"
             />
             <resource-row
               title="Sabbath Dinner 2"
               description="An order of worship: God of salvation"
-              link="resources/sabbath-dinner2"
+              link="/resources/sabbath-dinner2"
               icon="fa-church"
             />
             <resource-row
               title="Sabbath Dinner - Evangelism"
               description="An order of worship: God of Good News"
-              link="resources/sabbath-dinner-evangelism"
+              link="/resources/sabbath-dinner-evangelism"
               icon="fa-church"
             />
             <resource-row
               title="Sabbath Dinner - Advent"
               description="An order of worship: Advent"
-              link="resources/sabbath-dinner-advent"
+              link="/resources/sabbath-dinner-advent"
               icon="fa-church"
             />
 
@@ -131,20 +131,20 @@
 </template>
 
 <script>
-import ResourceRow from "@/components/views/ResourceRow";
+import ResourceRow from '@/components/views/ResourceRow'
 
 export default {
-  name: "Home",
-  data() {
-    return {};
+  name: 'Home',
+  data () {
+    return {}
   },
   components: { ResourceRow },
-  methods: {},
-};
+  methods: {}
+}
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/sass/app";
+@import '../assets/sass/app';
 
 .icon-image {
   height: 45px;

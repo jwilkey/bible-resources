@@ -1,23 +1,24 @@
 <template>
   <div class="p2">
     <h3 class="m2-bottom">Proverbs 21:13</h3>
-    <div class="verses" :class="{chords: showChords}">
+    <div class="verses" :class="{ chords: showChords }">
       <p>Whoever closes his ear to the cry of the poor</p>
       <p>will himself call out and not be answered.</p>
     </div>
 
     <div class="text-right m2-top">
-      <a class="p1" :class="{tertiary: !showChords}" @click="toggleChords">chords</a>
+      <a class="p1" :class="{ tertiary: !showChords }" @click="toggleChords"
+        >chords</a
+      >
     </div>
 
-    <hr>
+    <hr />
 
     <study-notes :notes="notes" />
   </div>
 </template>
 
 <script>
-import Chd from '@/components/studies/Chord'
 import StudyNotes from '@/components/studies/Proverbs/21/StudyNotes'
 
 export default {
@@ -35,7 +36,7 @@ export default {
       }
     }
   },
-  components: { Chd, StudyNotes },
+  components: { StudyNotes },
   methods: {
     toggleChords () {
       this.showChords = !this.showChords

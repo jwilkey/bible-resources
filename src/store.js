@@ -1,16 +1,18 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import { createStore } from 'vuex'
+import storeGen from 'vuex-store-gen'
+import VuexPersistence from 'vuex-persist'
 
-Vue.use(Vuex)
+const vuexLocal = new VuexPersistence({
+  storage: window.localStorage
+})
 
-export default new Vuex.Store({
-  state: {
+const state = {
+}
 
-  },
-  mutations: {
+const storeOperations = storeGen(state)
 
-  },
-  actions: {
-
-  }
+export default createStore({
+  state,
+  ...storeOperations,
+  plugins: [vuexLocal.plugin]
 })
